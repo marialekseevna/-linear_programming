@@ -1,0 +1,48 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>linear programming</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="tabs">
+        <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
+        <label for="tab-btn-1">Лабораторная работа 1</label>
+
+        <div id="lab1">
+            <div class="task">
+                <div class="field">
+                    <span class="title">Введите матрицу:</span>
+                    <textarea class="text_area" id="inputArea"></textarea>
+                    <span class="title">Введите номер строки и столбца:</span>
+                    <div class="row_and_col">
+                        <textarea class="val_input" id="row"></textarea>
+                        <textarea class="val_input" id="col"></textarea>
+                    </div>
+                    <div class="buttons">
+                        <button class="input_button" id="inputButton">Ввод</button>
+                        <button id="clearButton">Очистить</button>
+                        <button id="changeButton">Поменять местами</button>
+                    </div>
+                </div>
+                <div class="field">
+                    <span class="title">Вывод:</span>
+                    <textarea class="text_area" id="outputArea" disabled></textarea>
+                </div>
+                <div class="field">
+                    <span class="title">Система:</span>
+                    <textarea id="answer" class="text_area"></textarea>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</body>
+
+</html>
