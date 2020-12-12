@@ -6,14 +6,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>linear programming</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
-    <script src="js/main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/laba1.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="css/laba2.css">
+    <script src="js/laba1.js"></script>
+    <script src="js/table.js"></script>
+    <script src="js/laba2.js"></script>
 </head>
 
 <body>
     <div class="tabs">
         <input type="radio" name="tab-btn" id="tab-btn-1" value="" checked>
         <label for="tab-btn-1">Лабораторная работа 1</label>
+        <input type="radio" name="tab-btn" id="tab-btn-2" value="" checked>
+        <label for="tab-btn-2">Лабораторная работа 2</label>
 
         <div id="lab1">
             <div class="task">
@@ -38,6 +43,31 @@
                 <div class="field">
                     <span class="title">Система:</span>
                     <textarea id="answer" class="text_area"></textarea>
+                </div>
+            </div>
+        </div>
+        <div id="lab2">
+            <div class="task_2">
+                <div class="task_2-section">
+                    <div class="task_2-prop_blocks">
+                        <div class="task_2-prop_block">
+                            <span class="task_2-prop_block-title"> Кол-во переменных:</span>
+                            <input type="number" class="task_2-prop_block-input_field" min="1" value="1">
+                        </div>
+                        <div class="task_2-prop_block">
+                            <span class="task_2-prop_block-title"> Кол-во уравнений:</span>
+                            <input type="number" class="task_2-prop_block-input_field" min="1" value="1">
+                        </div>
+                    </div>
+                    <button class="task_2-submit_button">Submit</button>
+                </div>
+                <div class="task_2-section hide">
+                    <div class="task_2-tables_div"></div>
+                    <button class="task_2-submit_button" id="submit_matrix">Submit</button>
+                </div>
+                <div class="task_2-section hide">
+                    <div class="task_2-tables_div"></div>
+                    <button class="task_2-submit_button" id="submit_matrix">Submit</button>
                 </div>
             </div>
         </div>
